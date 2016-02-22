@@ -9,5 +9,5 @@ do
     let "c=$c-1"
     sleep 60
   done
-  say "time to take a break"
+  echo "time to take a break" | festival --tts
 done
