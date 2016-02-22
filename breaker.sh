@@ -4,7 +4,8 @@ do
   let "c=$1"
   while [ $c -gt 0 ]; do
     printf "\033c"
-    echo "repeating in" $c "minutes"
+    echo "BREAKER"
+    echo "Break time in" $c "minutes."
     let "c=$c-1"
     sleep 60
   done
